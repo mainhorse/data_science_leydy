@@ -3,7 +3,7 @@ import pandas as pd
 app = FastAPI()
 
 
-df = pd.read_csv("Data\movies_dataset_ETL.csv", delimiter=',', header=0)
+df = pd.read_csv("Data/movies_dataset_ETL.csv", delimiter=',', header=0)
 #df2 = pd.read_csv("Data\credits_ETL.csv", delimiter=',', header=0)
 director = pd.read_csv("Data\directors_dataset.csv", delimiter=',',header=0)
 pre_recommendations = pd.read_csv("Data\recomendaciones_peliculas.csv", delimiter=',',header=0)
